@@ -1,9 +1,9 @@
 from turtle import Turtle  # Importing the Turtle class from the turtle module
 
 FONT = (
-    "Courier",
-    24,
-    "normal",
+    "ARIAL",
+    50,
+    "bold",
 )  # Setting the font properties: Font family, size, and style
 
 

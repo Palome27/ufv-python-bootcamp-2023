@@ -4,7 +4,7 @@ from turtle import (
 
 # Defining some constants to keep our code clean and easy to understand.
 STARTING_POSITION = (0, -280)  # Starting coordinates of the turtle
-MOVE_DISTANCE = 10  # Distance moved by the turtle each time
+MOVE_DISTANCE = 20  # Distance moved by the turtle each time
 FINISH_LINE_Y = 280  # Y-coordinate of the finish line
 
 
