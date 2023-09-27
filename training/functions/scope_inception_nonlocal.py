@@ -8,7 +8,7 @@ def dream_level_1():
         x = "Dream Level 2: Hotel"  # local variable to dream_level_2
 
         def dream_level_3():
-            x = "Dream Level 3: Snow Fortress"  # local variable to dream_level_3
+            y = "Dream Level 3: Snow Fortress"  # local variable to dream_level_3
 
             def limbo():
                 global reality  # Declare global first before using the name x in any way.
@@ -17,11 +17,14 @@ def dream_level_1():
 
                 nonlocal x  # Going back to Dream Level 3's x
                 print(f"In Limbo, after altering reality, the Dream Level 3 is: {x}")
-                x = "Dream Level 3, Snow Fortress but altered"  # modifying the dream level 3 reality
+                x = "Dream Level 2, Hotel but altered"  # modifying the dream level 3 reality
+
+                nonlocal y
+                y = "Dream Level 3, Ice Fortress but altered"
 
             print(f"In {x}, starting to go deeper...")
             limbo()
-            print(f"Back in {x}, after Limbo.")
+            print(f"Back in {y}, after Limbo.")
 
         print(f"In {x}, starting to go deeper...")
         dream_level_3()

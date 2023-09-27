@@ -25,7 +25,7 @@ class CarManager:
 
     # Time to make a car! But we're feeling lucky—only a 1 in 6 chance to actually make one each time
     def create_car(self):
-        random_chance = random.randint(1, 6)  # Roll the dice
+        random_chance = random.randint(1, 25)  # Roll the dice
         if (
             random_chance == 1
         ):  # If we roll a 1, we create a car. It's like car lottery!

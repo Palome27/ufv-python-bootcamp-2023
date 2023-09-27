@@ -1,5 +1,6 @@
 import turtle
 import random
+import sys
 
 # turtles
 player_one = turtle.Turtle()
@@ -29,6 +30,7 @@ die = [1, 2, 3, 4, 5, 6]
 
 # Loop will run 20 times
 for i in range(20):
+    print(sys.modules)
     # Check if the position of player_one is greater than or equal to the coordinate (300, 100)
     if player_one.pos() >= (300, 100):
         # If the above condition is met, this means player_one has reached or passed the coordinate (300, 100)

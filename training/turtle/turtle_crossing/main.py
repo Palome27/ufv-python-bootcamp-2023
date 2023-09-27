@@ -25,7 +25,7 @@ screen.onkey(player.go_up, "Up")  # When "Up" key is pressed, turtle moves up
 # The main game loop
 game_is_on = True
 while game_is_on:  # This loop will continue to run as long as game_is_on is True
-    time.sleep(0.1)  # Pause for 0.1 seconds; gives us a chance to see what's happening
+    # time.sleep(0.1)  # Pause for 0.1 seconds; gives us a chance to see what's happening
     screen.update()  # Manually update the screen
 
     car_manager.create_car()  # Try to create a car (it has a 1/6 chance each loop iteration)
