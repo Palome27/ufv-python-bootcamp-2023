@@ -123,3 +123,4 @@ screen.exitonclick()  # Exits the game when the screen is clicked
 #       También podría ser interesante que cada nivel se pudiera orientar en una dirección diferente, es decir que el nivel uno empezaran los autos de derecha a izquierda y que el nivel dos empezaran de izquierda a derecha o tal vez de una forma aleatoria para poder aumentar la dificultad
 
 
+
